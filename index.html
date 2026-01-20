@@ -7,52 +7,71 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
-            background-color: #f9f9f9;
+            background-color: #fcfcfc;
         }
         .container {
             background-color: #fff;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
-        h1 { font-size: 24px; border-bottom: 2px solid #ff6d00; padding-bottom: 10px; color: #ff6d00; }
-        h2 { font-size: 18px; margin-top: 30px; color: #444; border-left: 4px solid #ff6d00; padding-left: 10px; }
+        h1 { font-size: 26px; border-bottom: 3px solid #ff6d00; padding-bottom: 15px; color: #ff6d00; margin-bottom: 30px; }
+        h2 { font-size: 19px; margin-top: 35px; color: #444; border-left: 5px solid #ff6d00; padding-left: 12px; }
         p, li { font-size: 15px; color: #555; }
         ul { padding-left: 20px; }
-        .footer { margin-top: 40px; font-size: 12px; color: #999; text-align: center; }
-        a { color: #ff6d00; text-decoration: none; }
+        li { margin-bottom: 8px; }
+        .footer { margin-top: 50px; font-size: 13px; color: #999; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
+        a { color: #ff6d00; text-decoration: none; font-weight: 500; }
         a:hover { text-decoration: underline; }
+        .important { color: #d32f2f; font-weight: bold; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>プライバシーポリシー</h1>
-        <p>本アプリケーション（以下、「本アプリ」といいます）は、以下の通りプライバシーポリシーを定めます。</p>
+        <p>本アプリケーション「YouHabit」（以下、「本アプリ」といいます）は、ユーザーのプライバシーを尊重し、安心してご利用いただけるよう以下の通りプライバシーポリシーを定めます。</p>
 
-        <h2>1. 取得する情報</h2>
+        <h2>1. 取得する情報と管理</h2>
         <ul>
-            <li><strong>習慣の記録データ</strong>: アプリ内に入力されたデータはユーザーの端末内にのみ保存され、開発者がサーバー等で収集することはありません。</li>
-            <li><strong>利用状況の分析</strong>: アプリの品質向上のため、匿名のアクセスログ（Firebase Analytics等）を利用する場合があります。これらは個人を特定するものではありません。</li>
+            <li><strong>習慣の記録データ</strong>: 本アプリに入力された習慣の名前、URL、完了記録等のデータは、<span class="important">すべてユーザーの端末内にのみ保存されます。</span>開発者がサーバー等でこれらの個人データを収集・閲覧することはありません。</li>
+            <li><strong>利用状況の分析</strong>: アプリの品質向上および不具合改善のため、Googleが提供するFirebase Analytics等を利用して、匿名のアクセスログ情報を収集する場合があります。これらは統計情報として処理され、個人を特定するものではありません。</li>
         </ul>
 
         <h2>2. 利用目的</h2>
-        <p>取得した情報は、本アプリの機能提供、不具合の修正、およびユーザーからのお問い合わせ対応のためにのみ利用されます。</p>
+        <p>取得した情報は、以下の目的のためにのみ利用されます。</p>
+        <ul>
+            <li>本アプリの各機能の提供および維持</li>
+            <li>アプリの動作不良、クラッシュ等の不具合修正</li>
+            <li>ユーザーからのお問い合わせに対する回答</li>
+        </ul>
 
+        <h2>3. 第三者提供</h2>
+        <p>本アプリは、法令に基づく場合を除き、取得した情報をユーザーの同意なく第三者に提供することはありません。</p>
 
-        <h2>3. 免責事項</h2>
-        <p>本アプリの利用により生じた損害について、開発者は一切の責任を負いません。</p>
+        <h2>4. 外部サービスの利用</h2>
+        <p>本アプリでは、利用状況把握のために以下の外部サービスを利用する場合があります。各サービスのデータ収集・利用方法については、それぞれのプライバシーポリシーをご確認ください。</p>
+        <ul>
+            <li><strong>Google Firebase</strong> (Google Inc.)<br>
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a></li>
+        </ul>
 
-        <h2>4. お問い合わせ</h2>
-        <p>本ポリシーに関するお問い合わせは、アプリ内のお問い合わせフォーム（以下）までお願いいたします。</p>
-        <p>https://forms.gle/RuJB2qE2KefQnATM9</p>
+        <h2>5. 免責事項</h2>
+        <p>本アプリの利用により生じた損害や不利益について、開発者は一切の責任を負いません。本アプリが提供する情報の正確性や継続性を保証するものではありませんので、あらかじめご了承ください。</p>
+
+        <h2>6. 本ポリシーの変更</h2>
+        <p>本ポリシーの内容は、事前の通知なく変更される場合があります。変更後のポリシーは、本ページに掲載した時点から効力を生じるものとします。</p>
+
+        <h2>7. お問い合わせ</h2>
+        <p>本ポリシーまたは本アプリに関するお問い合わせは、以下のフォームよりご連絡ください。</p>
+        <p><a href="https://forms.gle/RuJB2qE2KefQnATM9" target="_blank" rel="noopener">YouHabit お問い合わせフォーム</a></p>
 
         <div class="footer">
-            制定日：2025年1月20日<br>
+            制定日：2026年1月20日<br>
             © 2026 Kosuke Fukano
         </div>
     </div>
